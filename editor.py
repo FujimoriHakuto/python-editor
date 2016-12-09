@@ -23,7 +23,7 @@ class UI(QMainWindow):
     
     self.w.setLayout(hbox)
     self.setCentralWidget(self.w)
-    
+    self.statusBar().showMessage("hello!")
     self.show()
         
     
